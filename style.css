@@ -1,4 +1,3 @@
-/* General reset and base styles */
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
@@ -129,12 +128,8 @@ body {
   width: 100%;
   height: 100%;
   padding: 10px 20px;
-  /* background: red; */
 }
 
-.sidebar ul a:first-child {
-  /* border-top: 1px solid #448c7429; */
-}
 
 #close-btn {
   position: absolute;
@@ -533,7 +528,7 @@ body {
 
 .section-description {
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   color: #666666;
 }
@@ -793,5 +788,11 @@ body {
 
   .hire-btn {
     display: none;
+  }
+}
+
+@media(max-width: 760px){
+  .section-description{
+    font-size: 14px;
   }
 }
